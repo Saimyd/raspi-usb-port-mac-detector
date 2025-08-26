@@ -1,0 +1,15 @@
+# Core dependencies
+requests>=2.25.1
+
+# RFID RC522 library
+rc522-spi-library>=0.1.0
+
+# GPIO and SPI support for Raspberry Pi
+RPi.GPIO>=0.7.0
+spidev>=3.5
+
+# System utilities
+psutil>=5.8.0
+
+# Optional: For better logging and debugging
+colorama>=0.4.4
