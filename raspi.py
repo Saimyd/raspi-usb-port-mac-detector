@@ -79,8 +79,8 @@ known_bt_macs = {}
 current_user_id = ""
 last_card_uid = ""
 
-API_LOGIN_URL = "http://event7.net/api/loginrequest"
-API_PROCESS_URL = "http://event7.net/api/processrequest"
+API_LOGIN_URL = "https://your-api-domain.com/api/loginrequest"
+API_PROCESS_URL = "https://your-api-domain.com/api/processrequest"
 
 def send_to_api(url, data):
     try:
